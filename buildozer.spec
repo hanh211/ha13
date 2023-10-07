@@ -10,7 +10,7 @@ package.name = LoveCalculator
 package.domain = org.stack
 
 # (str) Source code where the main.py live
-source.dir = .
+source.dir = index.html
 
 # (list) Source files to include (let empty to include all the files)
 source.include_exts = png,jpg,js,json,html,cmd,ps1,
