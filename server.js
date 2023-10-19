@@ -12,7 +12,7 @@ app.get('/', (req, res, next) => {
 });
 
 const FPS = 100;
-const Vcap = new cv2.VideoCapture("rtsp://admin:admin1234@ngduchanh2.ddns.net:554/cam/realmonitor?channel=1&subtype=0");
+const Vcap = new cv2.VideoCapture("rtsp://admin:admin1234@ngduchanh3.ddns.net:554/cam/realmonitor?channel=1&subtype=0");
 Vcap.set(cv2.CAP_PROP_FRAME_WIDTH, 300);
 Vcap.set(cv2.CAP_PROP_FRAME_HEIGHT, 300);
 
