@@ -1,16 +1,17 @@
 {
-  "name": "ha13",
+  "name": "webcam_",
   "version": "1.0.0",
-  "description": "",
-  "main": "app.js",
+  "description": "Stream webcam using opencv",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon server.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "narenltk",
+  "license": "MIT",
   "dependencies": {
-    "node-onvif": "^0.1.7",
-    "node-rtsp-stream": "^0.0.9"
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "opencv4nodejs": "^5.6.0",
+    "socket.io": "^3.1.0"
   }
 }
