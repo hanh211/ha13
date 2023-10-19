@@ -22,4 +22,4 @@ setInterval(() => {
     io.emit('image', image);
 }, 1000 / FPS);
 
-server.listen(3030, () => console.log('narenltk says open up your browser'));
+server.listen(process.env.PORT || 3030, () => console.log('narenltk says open up your browser'));
